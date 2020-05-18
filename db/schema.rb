@@ -12,9 +12,13 @@
 
 ActiveRecord::Schema.define(version: 2020_05_17_222633) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "adminpack"
+  enable_extension "plpgsql"
+
   create_table "messages", force: :cascade do |t|
     t.text "body"
-    t.integer "user_id"
+    t.bigint "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_messages_on_user_id"
@@ -27,4 +31,5 @@ ActiveRecord::Schema.define(version: 2020_05_17_222633) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "messages", "users"
 end
