@@ -4,8 +4,8 @@ Message me is a MVC Ruby on Rails app for real-time chatting.
 
 ## Final Product
 
-!["Screenshot of Home Page"](https://github.com/wangxx1412/scheduler/blob/master/docs/Message_me.png?raw=true)
-!["Screenshot of Login Page"](https://github.com/wangxx1412/scheduler/blob/master/docs/Message_me_login.png?raw=true)
+!["Screenshot of Home Page"](https://github.com/wangxx1412/message_me/blob/master/docs/Message_me.png?raw=true)
+!["Screenshot of Login Page"](https://github.com/wangxx1412/message_me/blob/master/docs/Message_me_login.png?raw=true)
 
 ## Setup
 
