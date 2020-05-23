@@ -1,24 +1,34 @@
-# README
+# Message Me
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Message me is a MVC Ruby on Rails app for real-time chatting.
 
-Things you may want to cover:
+## Final Product
 
-* Ruby version
+!["Screenshot of Home Page"](https://github.com/wangxx1412/scheduler/blob/master/docs/Message_me.png?raw=true)
+!["Screenshot of Login Page"](https://github.com/wangxx1412/scheduler/blob/master/docs/Message_me_login.png?raw=true)
 
-* System dependencies
+## Setup
 
-* Configuration
+Git Clone this repo.
 
-* Database creation
+Install dependencies with `bundle install`.
 
-* Database initialization
+## Running Rails Server
 
-* How to run the test suite
+```sh
+rails s
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Functionalities
 
-* Deployment instructions
+- User Login/Logout
+- Real time chatting on main page
 
-* ...
+## Libraries
+
+- Semantic UI
+- PostgreSQL
+
+## Todo
+
+- Add testings for app
